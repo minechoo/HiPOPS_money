@@ -1,0 +1,89 @@
+<header id="header">
+  <div class="header_inner w1580">
+    <div class="gnbWrap">
+      <h1 class="logo">
+        <a href="/brain/index.html">
+          <img src="images/logo.png" alt="" class="logo_b">
+        </a>
+      </h1>
+      <ul class="nav m_hide">
+        <li><a href="https://hipops.co.kr/home" target="_blank">회사소개</a></li>
+        <li><a href="asset.html">에셋 매니지먼트</a></li>
+        <li><a href="bussiness.html">비즈니스 컨설팅</a></li>
+      </ul>
+      <img src="images/btn_site.png" alt="" class="btn_site m_show">
+    </div>
+  </div>
+  <div class="sitemap">
+    <div class="sitemap_inner">
+      <div class="site_top">
+        <img src="images/logo_m.png" alt="" class="site_logo">
+        <div class="btn_area">
+          <img src="images/btn_menu_m.png" alt="" class="close_btn">
+        </div>
+      </div>
+      <ul>
+        <li><a href="https://hipops.co.kr/home" target="_blank">회사소개</a></li>
+        <li><a href="asset.html">에셋 매니지먼트</a></li>
+        <li><a href="bussiness.html">비즈니스 컨설팅</a></li>
+      </ul>
+    </div>
+    <div class="info_footer">
+      <div class="m_footer_left">
+        <span>Tell. <br>
+          1855-2513</span><br>
+        <span>Mail. <br>
+          hipops@hipops.co.kr</span>
+        <p>Copyright @ 2021 All rights reserved</p>
+      </div>
+      <div class="m_footer_right">
+        <p>46, Dongmak-ro 19-gil, Mapo-gu, Seoul,
+          Republic of Korea (04067)</p>
+
+        <div class="flex j_c_between">
+          <img src="images/ico_naver.png" alt="">
+          <img src="images/ico_cacao.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<script>
+  $(function () {
+    // wingBannerWrap
+    $(window).scroll(function () {
+      const scrollY = $(window).scrollTop();
+      const wingScroll = $('.wingBannerWrap');
+
+      if (scrollY == $(document).height() - $(window).height()) {
+        wingScroll.addClass('scroll');
+      } else {
+        wingScroll.removeClass('scroll');
+      }
+    });
+
+    // topBtn
+    $('.top_btn').click(function () {
+      $('html, body').animate({ scrollTop: 0 }, 300);
+      return false;
+    });
+
+    var sitemap = $('#header .sitemap');
+
+    $('.btn_site').click(function () {
+      sitemap.addClass('on');
+      $('body').addClass('body_bg');
+      console.log('click');
+    });
+
+    $('.close_btn').click(function () {
+      sitemap.removeClass('on');
+      $('body').removeClass('body_bg');
+    });
+
+    $('.sitemap li a').click(function () {
+      sitemap.removeClass('on');
+      $('body').removeClass('body_bg');
+    });
+  });
+</script>

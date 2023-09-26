@@ -1,0 +1,150 @@
+@font-face {
+	font-family: 'Pretendard';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-style: bold;
+	font-weight: 700;
+	src: url(../fonts/Pretendard-Bold.woff) format('woff');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-style: light;
+	font-weight: 300;
+	src: url(../fonts/Pretendard-Light.woff) format('woff');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 800;
+	src: url(../fonts/Pretendard-ExtraBold.woff) format('woff');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 900;
+	src: url(../fonts/Pretendard-Black.woff) format('woff');
+}
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 600;
+	src: url(../fonts/Pretendard-Medium.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay';
+	font-weight: 500;
+	src: url(../fonts/PlayfairDisplay-Regular.woff) format('woff');
+}
+
+.pt_0 {
+	padding-top: 0 !important;
+}
+.mb_0 {
+	margin-bottom: 0 !important;
+}
+.mb_20 {
+	margin-bottom: 20px !important;
+}
+.mt_30 {
+	margin-top: 30px;
+}
+.mr_30 {
+	margin-right: 30px !important;
+}
+.pt_200 {
+	margin-top: 200px !important;
+}
+.orange {
+	color: #ffa801 !important;
+}
+.regular {
+	font-weight: 500 !important;
+}
+strong {
+	font-weight: 700;
+}
+.t_left {
+	text-align: left !important;
+}
+.txt_32 {
+	font-size: 32px !important;
+}
+.f_60 {
+	font-size: 60px !important;
+}
+.f_30 {
+	font-size: 30px !important;
+}
+.f_28 {
+	font-size: 28px !important;
+}
+.f_26 {
+	font-size: 26px !important;
+}
+.f_20 {
+	font-size: 20px !important;
+}
+.f_18 {
+	font-size: 18px !important;
+}
+.f_16 {
+	font-size: 16px !important;
+}
+.f_bold {
+	font-weight: 700 !important;
+}
+.h_55 {
+	height: 55px !important;
+	line-height: 55px !important;
+}
+.h_1_5 {
+	line-height: 50px !important;
+}
+.c_white {
+	color: #fff !important;
+}
+.c_b {
+	color: #000 !important;
+}
+.h_2_5 {
+	line-height: 2.5 !important;
+}
+.w_50 {
+	width: 50%;
+}
+.m_hide_1023 {
+	display: block;
+}
+@media screen and (max-width: 1023px) {
+	.m_hide_1023 {
+		display: none;
+	}
+}
+@media screen and (max-width: 540px) {
+	.pt_200 {
+		margin-top: 100px !important;
+	}
+	.f_20 {
+		font-size: 16px !important;
+	}
+	.txt_32 {
+		font-size: 20px !important;
+	}
+	.pt_200 {
+		margin-top: 50px !important;
+	}
+	.h_1_5 {
+		line-height: 1.3 !important;
+	}
+	.f_26 {
+		font-size: 21px !important;
+	}
+	.f_20 {
+		font-size: 10px !important;
+	}
+	.f_28 {
+		font-size: 24px !important;
+	}
+}
